@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: handmade-project
+  datasource:
+    url: jdbc:postgresql://localhost:5432/handmade
+    username: postgres
+    password: 2001
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      maximum-pool-size: 10  # Adjust the pool size if necessary
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update  # Options: update, create, create-drop, validate, none
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
+
+  # Optional configurations for Spring Boot DevTools
+  devtools:
+    restart:
+      enabled: true
+
