@@ -1,13 +1,13 @@
-package com.example.mshandmade;
+package com.example.handmade;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MsHandmadeApplication {
+public class HandmadeApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(MsHandmadeApplication.class, args);
+        SpringApplication.run(HandmadeApplication.class, args);
     }
 
 }
