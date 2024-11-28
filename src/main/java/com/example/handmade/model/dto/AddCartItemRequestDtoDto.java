@@ -5,7 +5,7 @@ import lombok.EqualsAndHashCode;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
-public class AddCartItemRequest extends CartItemRequest {
+public class AddCartItemRequestDtoDto extends CartItemRequestDto {
 
     private Long productId;
 }

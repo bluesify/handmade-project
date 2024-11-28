@@ -1,6 +1,6 @@
 package com.example.handmade.model.dto;
 
-public record AddressRequest(
+public record AddressDto(
      Long addressId,
      String type,
      String address1,
